@@ -1,0 +1,74 @@
+body,
+html {
+  z-index: 0;
+  height: 100%;
+}
+.logo{
+  height: 40px;
+}
+.ui.menu .item:before{
+  width: 0;
+}
+header {
+  padding-bottom: 10px;
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+.bodyer {
+  min-height: 100%;
+  position: relative;
+}
+.bodyer .main {
+  /*padding-bottom: 76px;*/
+}
+.bodyer .footer {
+  width: 100%;
+  position: absolute;
+  padding: 10px 0;
+  bottom: 0;
+}
+.bodyer .footer .container {
+  text-align: center;
+}
+.bodyer .footer .container a {
+  color: rgba(0, 0, 0, 0.6);
+}
+.bodyer .footer .container a:hover {
+  color: rgba(0, 0, 0, 0.8);
+}
+.back-top {
+  display: none;
+  font-size: 30px;
+  position: fixed;
+  bottom: 50px;
+  right: 40px;
+  top: auto;
+  cursor: pointer;
+  z-index: 999;
+  color: rgba(0, 0, 0, 0.6);
+}
+.back-top:hover {
+  color: rgba(0, 0, 0, 0.8);
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#allmap {height: 400px;width:100%;overflow: hidden;}
+
+.section{
+  padding-top: 65px;
+}
+
+.ui .grid{
+  padding-right: 0;
+  padding-left: 0;
+}
+
+p{
+  padding-top: 10px;
+}
