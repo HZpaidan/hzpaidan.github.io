@@ -2,13 +2,17 @@ body,
 html {
   z-index: 0;
   height: 100%;
+  color:#382517 !important;
 }
-.logo{
+
+.logo {
   height: 40px;
 }
-.ui.menu .item:before{
+
+.ui.menu .item:before {
   width: 0;
 }
+
 header {
   padding-bottom: 10px;
   position: fixed;
@@ -17,28 +21,39 @@ header {
   right: 0;
   top: 0;
 }
+
+.header{
+  color:#382517 !important
+}
+
 .bodyer {
   min-height: 100%;
   position: relative;
 }
+
 .bodyer .main {
   padding-bottom: 76px;
 }
+
 .bodyer .footer {
   width: 100%;
   position: absolute;
   padding: 10px 0;
   bottom: 0;
 }
+
 .bodyer .footer .container {
   text-align: center;
 }
+
 .bodyer .footer .container a {
   color: rgba(0, 0, 0, 0.6);
 }
+
 .bodyer .footer .container a:hover {
   color: rgba(0, 0, 0, 0.8);
 }
+
 .back-top {
   display: none;
   font-size: 30px;
@@ -50,6 +65,7 @@ header {
   z-index: 999;
   color: rgba(0, 0, 0, 0.6);
 }
+
 .back-top:hover {
   color: rgba(0, 0, 0, 0.8);
   -moz-transition: all 0.5s ease;
@@ -58,17 +74,35 @@ header {
   transition: all 0.5s ease;
 }
 
-#allmap {height: 400px;width:100%;overflow: hidden;}
+#allmap {
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+}
 
-.section{
+.section {
   padding-top: 65px;
 }
 
-.ui .grid{
+.ui .grid {
   padding-right: 0;
   padding-left: 0;
 }
 
-p{
-  padding-top: 10px;
+.company {
+  padding-top: 100px;
+  display: block;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.company_des {
+  display: block;
+  width: 520px;
+  margin: 0 auto;
+  font-size: 22px;
+}
+
+.f14{
+  font-size: 14px;
 }
